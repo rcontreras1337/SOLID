@@ -105,7 +105,12 @@ todo funciono de la forma esperada.
 
 * Priorizar uso de condicional ternaria.
 
-*
+# DRY Don't Repeat Yourself
+
+* evitar código duplicado
+* simplifica las pruebas
+* ayuda a centralizar procesos
+* aplicar DRY usualmente lleva a refactorizar. 
 
 
 
