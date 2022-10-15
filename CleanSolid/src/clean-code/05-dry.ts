@@ -19,6 +19,6 @@ class Product {
 }
 
 (() => {
-    const bluePants = new Product();
+    const bluePants = new Product('blue large pants', '10', 'S');
     console.log(bluePants.toString());
 }) ();
