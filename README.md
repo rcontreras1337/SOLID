@@ -116,6 +116,26 @@ todo funciono de la forma esperada.
  
 * Cada una de la funciones debe hacer una tarea y hacerla bien
 
+# Estructura recomendada de clases
+
+## Propiedades 
+* Propiedades estáticas.
+* Propiedades privadas siguiendo las buenas practicas del lenguaje en el cual se este trabajando(_id etc.).
+* Propiedades públicas de último.
+
+
+## Lista de métodos
+
+* Constructores estáticos.
+* Constructor normal.
+* Constructor estático de ser necesario.
+* Métodos Estáticos.
+* Métodos Privados.
+* Resto Métodos de instancia ordenados de mayor a menor importancia.
+* Getters y Setters.
+
+# Comentarios de código.
+
 
 
 
