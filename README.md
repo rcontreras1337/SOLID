@@ -157,6 +157,18 @@ todo funciono de la forma esperada.
 * I – Interface Segregation Principle (ISP)
 * D – Dependency Inversion Principle (DIP)
 
+## SRP - principio de responsabilidad única.
+
+> "Nunca debería haber más de un motivo por el cual cambiar una clase o un módulo" - Robert C. Martin
+
+### Detectar Violaciones al SRP
+
+* Nombres de clases y módulos demasiados genéricos. 
+* Cambios en el código suelen afectar la clase o módulo.
+* La clase involucra muchas capas, todas las capas juntas en la misma clase.
+* Número elevado de importaciones.
+* Cantidad elevada de métodos públicos.
+* Excesivo número de líneas de código.
 
 
 
