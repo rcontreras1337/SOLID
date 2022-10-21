@@ -134,7 +134,20 @@ todo funciono de la forma esperada.
 * Resto Métodos de instancia ordenados de mayor a menor importancia.
 * Getters y Setters.
 
-# Comentarios de código.
+# Acrónimo-STUPID Patrones que debemos evitar.
+
+## 6 code smells que debemos evitar.
+
+* Singleton: patron singleton.
+* Tight Coupling: Alto acoplamiento.
+* Untestability: Código no probable(unit test).
+* Premature optimization: optimizaciones prematuras.
+* Indescriptibles Naming: nombres poco descriptivos.
+* Duplication: duplicidad de código, no aplicar el principio DRY.
+
+
+
+
 
 
 
