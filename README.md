@@ -145,8 +145,17 @@ todo funciono de la forma esperada.
 * Indescriptibles Naming: nombres poco descriptivos.
 * Duplication: duplicidad de código, no aplicar el principio DRY.
 
+# Principios S.O.L.I.D.
 
+* Son principios que deben seguirse, ojo no son reglas, por lo que pueden existir excepciones, esto debe ser como Thanos perfectamente equilibrado, como dije anteriomente no son reglas por lo que no es algo obligatorio, lo que significa que en algunos casos no sera posible seguirlos, son excepciones, aunque si siempre tienes excepciones y no logras seguir estos principios podría ser un síntoma de que estamos generando deuda técnica, por esta razón son principios no reglas y cada excepciones debe ser debidamente justificada, para mantener todo en equilibrio, debería poblar más los principios que aquellas excepciones 
 
+## Los 5 principios S.O.L.I.D. de diseño de software son:
+
+* S – Single Responsibility Principle (SRP)
+* O – Open/Closed Principle (OCP)
+* L – Liskov Substitution Principle (LSP)
+* I – Interface Segregation Principle (ISP)
+* D – Dependency Inversion Principle (DIP)
 
 
 
