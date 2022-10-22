@@ -174,9 +174,12 @@ todo funciono de la forma esperada.
 
 * Establece que las entidades de software (clases, módulos, métodos, etc.) deben estar abiertas para la extension, pero cerradas para la modificación.
 
+### Detectar Violaciones al OCP
 
+* Cambios normalmente afectan nuestra clase o modulo constantemente.
+* Cuando una clase o modulo afecta muchas capas. (presentación, almacenamiento, etc.).
 
-
+# Principio de sustitución de Liskov
 
 
 
