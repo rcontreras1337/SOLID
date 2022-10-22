@@ -170,8 +170,9 @@ todo funciono de la forma esperada.
 * Cantidad elevada de métodos públicos.
 * Excesivo número de líneas de código.
 
+# OCP - principio abierto cerrado
 
-
+* Establece que las entidades de software (clases, módulos, métodos, etc.) deben estar abiertas para la extension, pero cerradas para la modificación.
 
 
 
