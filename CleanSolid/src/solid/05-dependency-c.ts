@@ -1,3 +1,6 @@
+
+import localPosts from '../data/local-database.json';
+
 export class LocalDataBaseService {
 
     constructor() {}
@@ -16,6 +19,14 @@ export class LocalDataBaseService {
                 'title': 'qui est esse',
                 'body': 'est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis qui aperiam non debitis possimus qui neque nisi nulla'
             }]
+    }
+
+}
+
+export class JasonDataBaseService {
+ 
+    async getPosts(){
+        return localPosts;
     }
 
 }
