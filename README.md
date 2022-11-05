@@ -181,7 +181,9 @@ todo funciono de la forma esperada.
 
 # Principio de sustitución de Liskov
 
+* Las funciones que utilicen punteros o referencias a clases base deben ser capaces de usar objetos de clases derivadas sin saberlo.
 
+# Principio de segregación de interfaz
 
 
 
