@@ -1,11 +1,18 @@
 
 import localPosts from '../data/local-database.json';
+import { Post } from './05-dependency-b';
 
-export class LocalDataBaseService {
+export abstract class PostProvider {
 
-    constructor() {}
+    abstract getPosts(): Promise<Post[]>;
 
-    async getFakePosts() {
+}
+
+export class LocalDataBaseService implements PostProvider {
+
+    constructor() { }
+
+    async getPosts() {
         return [
             {
                 'userId': 1,
@@ -23,10 +30,31 @@ export class LocalDataBaseService {
 
 }
 
-export class JasonDataBaseService {
- 
-    async getPosts(){
+export class JasonDataBaseService implements PostProvider {
+
+    async getPosts() {
         return localPosts;
+    }
+
+}
+
+export class WebApiPostService implements PostProvider {
+
+    // async getPosts() {
+    //     return fetch('https://jsonplaceholder.typicode.com/posts', {
+    //         method: 'GET',
+    //         headers: {
+
+    //         },
+    //     })
+    //     .then(response => response.json())
+    //     .then(response => {
+    //         return response as Post[]})
+
+    // }
+    async getPosts() {
+        const resp = await fetch('https://jsonplaceholder.typicode.com/posts');
+        return await resp.json();
     }
 
 }

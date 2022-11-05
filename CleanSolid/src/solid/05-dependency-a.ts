@@ -1,11 +1,12 @@
 import { PostService } from './05-dependency-b';
-import { JasonDataBaseService, LocalDataBaseService } from './05-dependency-c';
+import { JasonDataBaseService, LocalDataBaseService, WebApiPostService } from './05-dependency-c';
 
 
 // Main
 (async () => {
     // const provider = new JasonDataBaseService();
-    const provider = new LocalDataBaseService();
+    // const provider = new LocalDataBaseService();
+    const provider = new WebApiPostService();
 
     const postService = new PostService( provider );
 
