@@ -1,6 +1,6 @@
 import { LocalDataBaseService } from "./05-dependency-c";
 
-interface Post {
+export interface Post {
     body:   string;
     id:     number;
     title:  string;
