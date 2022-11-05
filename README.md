@@ -185,6 +185,7 @@ todo funciono de la forma esperada.
 
 # Principio de segregación de interfaz
 
+* Los clientes no deberían estar obligados a depender de interfaces que no utilicen. - Robert C. Martin
 
 
 
