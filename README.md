@@ -193,6 +193,10 @@ todo funciono de la forma esperada.
 
 # Principio de inversión de dependencias
 
+* Los módulos de alto nivel no deben depender de módulos de bajo nivel. Ambos deben depender de abstracciones. Las abstracciones no deben depender de concreciones. Los detalles deben depender de abstracciones. - Robert C. Martin
+
+
+
 
 
 
