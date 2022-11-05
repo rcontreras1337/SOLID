@@ -187,6 +187,14 @@ todo funciono de la forma esperada.
 
 * Los clientes no deberían estar obligados a depender de interfaces que no utilicen. - Robert C. Martin
 
+# Detectar Violaciones ISP
+
+* Si las interfaces que diseñamos nos obligan a violar los principios de responsabilidad única y substitución de Liskov
+
+# Principio de inversión de dependencias
+
+
+
 
 
 

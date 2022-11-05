@@ -1,29 +1,28 @@
-interface Bird{
-    run() : void;
-    fly() : void;
-    eat() : void;
+interface Bird {
+    eat(): void;
+}
+
+interface FlyingBird {
+    fly(): void;
+}
+interface RunningBird {
+    run(): void;
+}
+interface SwimmerBird {
     swim(): void;
 }
 
-class Tucan{
-    public fly(){};
-    public eat(){};
-    public run(){};
-}
-
-class Humminbird{
-    public fly(){};
-    public eat(){};
-    public run(){};
-}
-
-class Ostrich implements Bird{
-    swim(): void {
+class Tucan implements Bird, FlyingBird {
+    eat(): void {
         throw new Error("Method not implemented.");
     }
-    run(): void {
+    fly(): void {
         throw new Error("Method not implemented.");
     }
+
+}
+
+class HumminBird implements Bird, FlyingBird{
     fly(): void {
         throw new Error("Method not implemented.");
     }
@@ -32,14 +31,17 @@ class Ostrich implements Bird{
     }
 }
 
-class Penguin implements Bird{
-    swim(): void {
-        throw new Error("Method not implemented.");
-    }
+class Ostrich implements Bird, RunningBird {
     run(): void {
         throw new Error("Method not implemented.");
     }
-    fly(): void {
+    eat(): void {
+        throw new Error("Method not implemented.");
+    }
+}
+
+class Penguin implements Bird, SwimmerBird {
+    swim(): void {
         throw new Error("Method not implemented.");
     }
     eat(): void {
